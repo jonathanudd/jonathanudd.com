@@ -5,7 +5,7 @@ weight: 5
 menu:
   main:
     name: "Start"
-    URL: "/"
+    URL: "/jonathanudd.com"
     weight: 10
 ---
 
