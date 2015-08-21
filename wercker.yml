@@ -1,11 +1,11 @@
-box: ubuntu
+box: debian
 build:
   steps:
     - arjen/hugo-build:
         version: "0.14"
 deploy:
   steps:
-    -install-packages:
+    - install-packages:
         packages: git
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
