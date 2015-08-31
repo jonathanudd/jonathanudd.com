@@ -6,9 +6,6 @@ build:
     - add-ssh-key:
         keyname: jonathanuddcom
         host: github.com
-    - add-to-known_hosts:
-        hostname: github.com
-        fingerprint: 13:47:Cc:FA:KE:28:NO:T6:RE:A7:56:4d:eb:df:a6:48
     - script:
         name: initialize git submodules
         code: |
